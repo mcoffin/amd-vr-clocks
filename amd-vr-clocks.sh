@@ -205,7 +205,7 @@ set_power_limit() {
 
 print_flags() {
 	while [ $# -ge 2 ]; do
-		printf '\t%c - %s\n' $1 "$2"
+		printf '\t-%c - %s\n' $1 "$2"
 		shift 2
 	done
 }
